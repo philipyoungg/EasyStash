@@ -6,7 +6,7 @@
 //  Copyright © 2019 Khoa Pham. All rights reserved.
 //
 
-#if os(iOS) || os(tvOS) || os(visionOS)
+#if os(iOS) || os(tvOS)
 import UIKit
 
 extension UIColor {
@@ -21,7 +21,6 @@ extension UIColor {
         }
     }
 }
-
 #elseif os(OSX)
 import AppKit
 
